@@ -20,8 +20,8 @@ p {
 }
 
 .bc-btn:hover {
-  color: #fff;
-  border-color: #fff;
+  color: #FFF;
+  border-color: #FFF;
 }
 
 /* Header */
@@ -53,7 +53,7 @@ p {
 }
 
 .bc-header-main nav ul li a:hover {
-  color: #fff;
+  color: #FFF;
 }
 
 /* Section intro */
@@ -72,7 +72,7 @@ p {
 .bc-section-intro div h1 {
   font-size: 48px;
   font-weight: bold;
-  color: #fff;
+  color: #FFF;
   text-transform: uppercase;
 }
 
@@ -84,7 +84,7 @@ p {
 
 .bc-section-intro div blockquote p {
   font-style: italic;
-  color: #fff;
+  color: #FFF;
 }
 
 .bc-section-intro div blockquote p:before,
@@ -93,13 +93,13 @@ p {
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #fff;
+  background-color: #FFF;
   margin: 14px auto 10px auto;
 }
 
 .bc-section-intro div blockquote cite {
   font-style: normal;
-  color: #fff;
+  color: #FFF;
   font-weight: bold;
   font-size: 14px;
   letter-spacing: .1em;

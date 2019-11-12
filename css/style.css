@@ -28,6 +28,7 @@ p {
 .bc-header-main {
   width: 100%;
   position: fixed;
+  z-index: 999;
   top: 0;
   background-color: #FEC740;
   padding: 15px 0px;
@@ -104,4 +105,80 @@ p {
   font-size: 14px;
   letter-spacing: .1em;
   text-transform: uppercase;
+}
+
+.bc-section-prod {
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+  padding: 60px 0px 60px 0px;
+}
+
+.bc-section-prod div h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.bc-section-prod div h2:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 14px auto 10px auto;
+}
+
+.bc-section-prod div ul li {
+  background-color: #FEC740;
+}
+
+.bc-prod-image {
+  background-color: #000;
+  padding: 20px;
+}
+
+.bc-section-prod div ul li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.bc-section-prod div ul li h3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 2px auto;
+}
+
+.bc-section-prod div ul li p {
+  padding: 10px 20px 20px 20px;
+}
+
+.bc-detail-btn  {
+  margin-top: 15px;
+  height: 100px;
+  clear: both;
+  padding-top: 20px;
+}
+
+.bc-detail-btn p {
+  margin-bottom: 20px;
+}
+
+.bc-detail-btn a {
+  margin-top: 20px;
+}
+.bc-detail-btn a:hover {
+  color: #000;
+  border-color: #000;
 }

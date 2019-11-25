@@ -222,3 +222,85 @@ p {
   margin-bottom: 20px;
 }
 
+.bc-section-quality {
+  width: 100%;
+  background-color: #FFF;
+  text-align: center;
+}
+
+.bc-section-quality div {
+  padding: 30px 0px;
+}
+
+.bc-section-quality div:after {
+  content: '';
+  width: 634px;
+  height: 83px;
+  display: block;
+  background: url('../img/linhas.png') no-repeat center;
+  position: absolute;
+  top: 185px;
+  right: 162px;
+}
+
+.bc-section-quality div h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.bc-section-quality div h2:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 14px auto 10px auto;
+}
+
+.bc-section-quality div ul {
+  padding-top: 20px;
+}
+
+.bc-section-quality div ul li {
+  padding: 0 40px;
+}
+
+.bc-section-quality div ul li h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.bc-section-quality div ul li h3:after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 6px auto;
+}
+
+.bc-section-quality div div {
+  margin-top: 15px;
+  height: 100px;
+  clear: both;
+  padding-top: 20px;
+}
+
+.bc-section-quality div div p {
+  margin-bottom: 20px;
+}
+
+.bc-section-quality div div a:hover {
+  color: #000;
+  border-color: #000;
+}
+
+

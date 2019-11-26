@@ -4,24 +4,24 @@ body {
 }
 
 p {
-  font-family: Georgia, 'Times New Roman', serif;
+  font-family: Georgia, "Times New Roman", serif;
   font-size: 14px;
   line-height: 20px;
 }
 
 .bc-btn {
-  border: 3px solid #FEC740;
+  border: 3px solid #fec740;
   padding: 10px 30px;
-  color: #FEC740;
+  color: #fec740;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
 }
 
 .bc-btn:hover {
-  color: #FFF;
-  border-color: #FFF;
+  color: #fff;
+  border-color: #fff;
 }
 
 /* Header */
@@ -30,7 +30,7 @@ p {
   position: fixed;
   z-index: 999;
   top: 0;
-  background-color: #FEC740;
+  background-color: #fec740;
   padding: 15px 0px;
 }
 
@@ -42,7 +42,7 @@ p {
   display: inline-block;
   margin-left: 20px;
   text-transform: uppercase;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 20px;
   margin-top: 20px;
 }
@@ -54,7 +54,7 @@ p {
 }
 
 .bc-header-main nav ul li a:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 /* Section intro */
@@ -64,7 +64,7 @@ p {
   margin-top: 96px;
   padding-top: 85px;
   text-align: center;
-  background-image: url('./../img/bg.jpg');
+  background-image: url("./../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -73,7 +73,7 @@ p {
 .bc-section-intro div h1 {
   font-size: 48px;
   font-weight: bold;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
 }
 
@@ -85,31 +85,31 @@ p {
 
 .bc-section-intro div blockquote p {
   font-style: italic;
-  color: #FFF;
+  color: #fff;
 }
 
 .bc-section-intro div blockquote p:before,
 .bc-section-intro div blockquote p:after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 14px auto 10px auto;
 }
 
 .bc-section-intro div blockquote cite {
   font-style: normal;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   font-size: 14px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 }
 
 .bc-section-prod {
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   text-align: center;
   padding: 60px 0px 60px 0px;
 }
@@ -118,14 +118,14 @@ p {
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   color: #000;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
 .bc-section-prod div h2:after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -134,7 +134,7 @@ p {
 }
 
 .bc-section-prod div ul li {
-  background-color: #FEC740;
+  background-color: #fec740;
 }
 
 .bc-prod-image {
@@ -146,13 +146,13 @@ p {
   font-size: 18px;
   font-weight: bold;
   line-height: 25px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 20px;
 }
 
 .bc-section-prod div ul li h3:after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -164,7 +164,7 @@ p {
   padding: 10px 20px 20px 20px;
 }
 
-.bc-detail-btn  {
+.bc-detail-btn {
   margin-top: 15px;
   height: 100px;
   clear: both;
@@ -188,21 +188,21 @@ p {
 }
 
 .bc-section-port div h2 {
-  color: #FEC740;
+  color: #fec740;
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
 .bc-section-port div h2:after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
-  background-color: #FEC740;
+  background-color: #fec740;
   margin: 14px auto 10px auto;
 }
 
@@ -218,13 +218,13 @@ p {
 }
 
 .bc-section-port div div p {
-  color: #FFF;
+  color: #fff;
   margin-bottom: 20px;
 }
 
 .bc-section-quality {
   width: 100%;
-  background-color: #FFF;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -233,11 +233,11 @@ p {
 }
 
 .bc-section-quality div:after {
-  content: '';
+  content: "";
   width: 634px;
   height: 83px;
   display: block;
-  background: url('../img/linhas.png') no-repeat center;
+  background: url("../img/linhas.png") no-repeat center;
   position: absolute;
   top: 185px;
   right: 162px;
@@ -247,14 +247,14 @@ p {
   font-size: 24px;
   line-height: 30px;
   font-weight: bold;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   color: #000;
   text-transform: uppercase;
   margin-bottom: 40px;
 }
 
 .bc-section-quality div h2:after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -274,12 +274,12 @@ p {
   font-size: 18px;
   font-weight: bold;
   line-height: 25px;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
   margin-top: 20px;
 }
 .bc-section-quality div ul li h3:after {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 3px;
@@ -303,4 +303,40 @@ p {
   border-color: #000;
 }
 
+.bc-pre-footer {
+  width: 100%;
+  height: 220px;
+  background: url("../img/bg-footer.jpg") no-repeat center;
+  background-size: cover;
+  text-align: center;
+}
 
+.bc-pre-footer div blockquote {
+  max-width: 320px;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+.bc-pre-footer div blockquote p {
+  font-style: italic;
+  color: #fff;
+}
+
+.bc-pre-footer div blockquote p:before,
+.bc-pre-footer div blockquote p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 14px auto 10px auto;
+}
+
+.bc-pre-footer div blockquote cite {
+  font-style: normal;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
